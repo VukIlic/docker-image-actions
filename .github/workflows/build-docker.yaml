@@ -3,10 +3,6 @@ on:
   push:
     branches:
       -main
-    paths:
-      - 'api/Dockerfile'
-      - 'front-end-nextjs/Dockerfile'
-
 
 jobs:
   publish_image:
