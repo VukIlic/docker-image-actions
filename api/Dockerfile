@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:latest
 
 # Set the working directory in the container
 WORKDIR /usr/src/app
